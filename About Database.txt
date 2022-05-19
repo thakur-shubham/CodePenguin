@@ -1,4 +1,0 @@
-Make a database naming in "codepenguin".
-
-After that create a table naming "signupdetails".
-- Add 4 rows in naming it as - Id, FullName, EmailId and Password.
