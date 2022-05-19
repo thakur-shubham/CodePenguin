@@ -1,0 +1,254 @@
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #131417;
+}
+::-webkit-scrollbar-thumb{
+    border: 10px solid;
+    border-image: linear-gradient(45deg, #47cf73, #ffdd40, #ae63e4, #76daff) 1;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #131417;
+}
+.navigation{
+    height: 75px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name{
+    height: 75px;
+    width: 930px;
+    display: flex;
+    align-items: center;
+}
+.h4{
+    margin: 0px 0px 0px 40px;
+    font-family: cambria;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-size: 45px;
+    opacity: 0.9;
+}
+.heading{
+    background: -webkit-linear-gradient(45deg, #47cf73, #ffdd40, #ae63e4, #76daff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.buttons{
+    height: 75px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.loginbutton{
+    height: 55px;
+    width: 125px;
+    margin: 0px 10px;
+    font-family: cambria;
+    background-color: #131417;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #47cf73, #ffdd40, #ae63e4, #76daff) 1;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+.loginbutton:hover{
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #47cf73, #ffdd40, #ae63e4, #76daff) 4;
+    animation: loginrotate 1.5s ease-in infinite;
+}
+@keyframes loginrotate {
+    25%{
+        border-image: linear-gradient(45deg, #ffdd40, #ae63e4, #76daff, #47cf73) 4;
+    }
+    50%{
+        border-image: linear-gradient(45deg, #ae63e4, #76daff, #47cf73, #ffdd40) 4;
+    }
+    75%{
+        border-image: linear-gradient(45deg, #76daff, #47cf73, #ffdd40, #ae63e4) 4;
+    }
+    100%{
+        border-image: linear-gradient(45deg, #47cf73, #ffdd40, #ae63e4, #76daff) 4;
+    }
+}
+.loginbutton a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: cambria;
+}
+.body{
+    margin-top: 50px;
+    height: 100%;
+    background: transparent;
+    display: flex;
+}
+.form{
+    background-color: transparent;
+    width: 50%;
+}
+.leftform{
+    margin: 0px 0px 0px 250px;
+}
+.form table{
+    /* display: block;
+    align-items: center; */
+}
+.h1{
+    font-family: cambria;
+    letter-spacing: 0.5px;
+    font-size: 70px;
+    color: #ffffff;
+    opacity: 0.9;
+}
+.signupinfo{
+    margin: -8px 0px;
+}
+.name{
+    font-family: cambria;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    color: #ffffff;
+    opacity: 0.9;
+}
+.input{
+    padding: 5px 5px 5px 10px;
+    margin: -50px 0px 20px 0px;
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    outline: none;
+    border-radius: 45px;
+    border: 3px solid #474a54;
+    font-size: 15px;
+    color: #ffffff;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+.input:focus{
+    color: #ffffff;
+}
+.tablebutton{
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+.button{
+    height: 75px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.signupbutton{
+    height: 45px;
+    width: 125px;
+    margin: 0px 10px -15px -200px;
+    font-family: cambria;
+    background-color: transparent;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #47cf73, #ffdd40, #ae63e4, #76daff) 1;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+.signupbutton:hover{
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #47cf73, #ffdd40, #ae63e4, #76daff) 4;
+    animation: signuprotate 1.5s ease-in infinite;
+}
+@keyframes signuprotate {
+    25%{
+        border-image: linear-gradient(45deg, #ffdd40, #ae63e4, #76daff, #47cf73) 4;
+    }
+    50%{
+        border-image: linear-gradient(45deg, #ae63e4, #76daff, #47cf73, #ffdd40) 4;
+    }
+    75%{
+        border-image: linear-gradient(45deg, #76daff, #47cf73, #ffdd40, #ae63e4) 4;
+    }
+    100%{
+        border-image: linear-gradient(45deg, #47cf73, #ffdd40, #ae63e4, #76daff) 4;
+    }
+}
+.codes{
+    width: 50%;
+}
+.section{
+    margin: 20px 50px 20px 75px;
+    height: 400px;
+    width: 500px;
+    background-color: #474a54;
+    border-radius: 25px;
+    display: grid;
+    justify-content: center;
+}
+.images{
+    margin-left: 180px;
+}
+.html{
+    margin-top: -35px;
+    height: 130px;
+    width: 405px;
+    border-radius: 10px;
+    background-color: #282c34;
+    box-shadow: 10px 10px 40px #000000;
+}
+.html p{
+    margin: 10px;
+    color: #ffffff;
+    font-family: cambria;
+    opacity: 0.8;
+}
+.htmlimg{
+    width: 255px;
+    border-radius: 5px;
+}
+.css{
+    margin: 30px 50px 30px 75px;
+    height: 130px;
+    width: 405px;
+    border-radius: 10px;
+    background-color: #282c34;
+    box-shadow: 10px 10px 40px #000000;
+}
+.css p{
+    margin: 10px;
+    color: #ffffff;
+    font-family: cambria;
+    opacity: 0.8;
+}
+.cssimg{
+    width: 270px;
+    border-radius: 5px;
+}
+.js{
+    height: 130px;
+    width: 405px;
+    border-radius: 10px;
+    background-color: #282c34;
+    box-shadow: 10px 10px 40px #000000;
+}
+.js p{
+    margin: 10px;
+    color: #ffffff;
+    font-family: cambria;
+    opacity: 0.8;
+}
+.jsimg{
+    width: 405px;
+    border-radius: 5px;
+}
