@@ -3,7 +3,7 @@
 - After downloading XAMPP, start your actions of module 'Apache' and 'MySQL' in XAMPP control panel.
 
                     #Downloading the project CodePenguin to you system
-- Download the .zip file naming the folder as "CodePenguin".
+- Download .zip file naming the folder as "CodePenguin".
 - Extract folder "CodePenguin" in path C:\xampp\htdocs
 
                     #Creating Database
