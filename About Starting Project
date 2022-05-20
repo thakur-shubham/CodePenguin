@@ -1,12 +1,12 @@
-          #Downloading XAMPP
-Download XAMPP control panel in your PC.
-After downloading XAMPP, start your actions of module 'Apache' and 'MySQL' in XAMPP control panel.
+                    #Downloading XAMPP
+- Download XAMPP control panel in your PC.
+- After downloading XAMPP, start your actions of module 'Apache' and 'MySQL' in XAMPP control panel.
 
-          #Downloading the project CodePenguin to you system
-Download the .zip file naming the folder as "CodePenguin".
-Extract folder "CodePenguin" in path C:\xampp\htdocs
+                    #Downloading the project CodePenguin to you system
+- Download the .zip file naming the folder as "CodePenguin".
+- Extract folder "CodePenguin" in path C:\xampp\htdocs
 
-          #Creating Database
-Make a database naming it as "codepenguin".
-Create a table naming it as "signupdetails".
-Add 4 rows in naming it as - Id, FullName, EmailId and Password.
+                    #Creating Database
+- Make a database naming it as "codepenguin".
+- Create a table naming it as "signupdetails".
+- Add 4 rows in naming it as - Id, FullName, EmailId and Password.
